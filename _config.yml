@@ -1,0 +1,36 @@
+# site settings
+title: 321 Shear Love
+subtitle: Hair by Stephanie
+email: stroyan07@gmail.com
+description: Stephanie Troyan's 321 Shear Love
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: http://321shearlove.com/ # the base hostname & protocol for your site
+author: Stephanie Troyan
+street_address: 1804 Riverview Dr
+city: Melbourne
+state: FL
+zip_code: 32901
+country: United States of America
+phone: (757) 641-5159
+
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 6
+
+# social settings
+500px_url:
+facebook_url: https://www.facebook.com/troyan1
+github_url:
+gitlab_url: 
+googleplus_url: 
+instagram_url: https://www.instagram.com/321shearlove/
+linkedin_url: 
+pinterest_url:
+slack_url:
+twitter_url: 
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
