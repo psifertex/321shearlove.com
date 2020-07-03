@@ -3,7 +3,7 @@ title: 321 Shear Love
 email: stroyan07@gmail.com
 description: Stephanie Troyan's 321 Shear Love
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: http://321shearlove.com/ # the base hostname & protocol for your site
+url: https://321shearlove.com/ # the base hostname & protocol for your site
 
 # Social settings
 500px_url:
