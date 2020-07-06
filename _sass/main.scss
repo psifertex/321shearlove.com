@@ -1005,12 +1005,12 @@
 
 /* Main */
 
+	.image.primary {
+		display: none;
+	}
+
 	.main {
 		position: relative;
-
-		.image.primary {
-			display: none;
-		}
 
 		.container {
 			@include padding($size-padding-tb, $size-padding-lr, (0, 0, 5em, 0));
@@ -1200,6 +1200,9 @@
 		$size-padding-tb: 3em;
 		$size-padding-lr: 3em;
 
+		.hidesmall {
+			display: none !important;
+		}
 		/* Main BG */
 
 			.main-bg {
@@ -1210,7 +1213,7 @@
 
 			.main {
 				.image.primary {
-					display: block;
+					display: none;
 					margin: 0 0 (_size(element-margin) * 2) 0;
 				}
 
@@ -1240,6 +1243,10 @@
 		/* Footer */
 
 			#footer {
+				.image.primary {
+					display: none;
+					margin: 0 0 (_size(element-margin) * 2) 0;
+				}
 				min-height: 0;
 				padding: 0;
 
@@ -1263,6 +1270,9 @@
 		$size-padding-tb: 3em;
 		$size-padding-lr: 1.5em;
 
+		.hidesmall {
+			display: none !important;
+		}
 		/* Basic */
 
 			h2 {
@@ -1283,6 +1293,7 @@
 				.goto-next {
 					display: none;
 				}
+
 			}
 
 		/* Header */
@@ -1327,6 +1338,9 @@
 
 		$size-padding-tb: 3em;
 		$size-padding-lr: 1em;
+		.hidesmall {
+			display: none !important;
+		}
 
 		/* Basic */
 

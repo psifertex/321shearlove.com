@@ -154,7 +154,7 @@
 				});
 
 		// Main sections.
-			$('.main').each(function() {
+			$('.main, #footer').each(function() {
 
 				var $this = $(this),
 					$primaryImg = $this.find('.image.primary > img'),
