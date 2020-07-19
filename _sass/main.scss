@@ -1005,9 +1005,11 @@
 
 /* Main */
 
+/*
 	.image.primary {
 		display: none;
 	}
+*/
 
 	.main {
 		position: relative;
@@ -1212,10 +1214,12 @@
 		/* Main */
 
 			.main {
+				/*
 				.image.primary {
 					display: none;
 					margin: 0 0 (_size(element-margin) * 2) 0;
 				}
+				*/
 
 				.container {
 					@include padding($size-padding-tb, $size-padding-lr, (0, 0, 7em, 0));
@@ -1243,10 +1247,12 @@
 		/* Footer */
 
 			#footer {
+				/*
 				.image.primary {
 					display: none;
 					margin: 0 0 (_size(element-margin) * 2) 0;
 				}
+				*/
 				min-height: 0;
 				padding: 0;
 
